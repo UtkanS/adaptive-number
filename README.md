@@ -13,7 +13,8 @@ A small C# utility type that stores integers in `long` until it would overflow, 
   - `HalfToEven` (banker’s rounding)
 - `Normalize(current, max)` → `float` in `[0..1]` with careful rounding
 - `TryParse/Parse`, comparisons, equality, `TryAsLong`
-
+- Optional: .NET 7 generic math support (via AdaptiveNumber.net7.cs)
+  
 ## Quick usage
 
 ```csharp
